@@ -2,7 +2,7 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup
 from AnieXEricaMusic import app
-from AnieXEricaMusic.core.call import RAUSHAN
+from AnieXEricaMusic.core.call import AMBOT
 from AnieXEricaMusic.utils import bot_sys_stats
 from AnieXEricaMusic.utils.inline.extras import botplaylist_markup
 from AnieXEricaMusic.utils.decorators.language import language
