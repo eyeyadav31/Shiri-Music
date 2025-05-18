@@ -1,5 +1,6 @@
 from typing import Union
-
+from AnieXEricaMusic import app
+from AnieXEricaMusic.utils.formatters import time_to_seconds
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
@@ -66,10 +67,19 @@ def queue_back_markup(_, CPLAY):
 def aq_markup(_, chat_id):
     buttons = [
         [
+            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
             InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
-                    callback_data="close",
+                text="˹❍ᴡηєʀ˼ ", url=f"https://t.me/ll_ISTKHAR_BABY_lll"
+            ),
+            InlineKeyboardButton(
+                text="˹ᴄʜᴧᴛ ɢʀσᴜᴘ˼", url=f"https://t.me/+9OLH6gomn0IyMjQ1"
             ),
         ],
-    ]
+      ]
     return buttons
