@@ -35,8 +35,8 @@ ICONS_Y = BAR_Y + 48
 
 MAX_TITLE_WIDTH = 580
 
-def trim_to_width(text: str, font: ImageFont.FreeTypeFont, max_w: int) -> str:
-    ellipsis = "…"
+def gen_thumb(...):
+    # your code
     if font.getlength(text) <= max_w:
         return text
     for i in range(len(text) - 1, 0, -1):
