@@ -26,7 +26,7 @@ async def privacy(client, message: Message):
 
 Your privacy is important to us. To learn more about how we collect, use, and protect your data, please review our Privacy Policy here: [Privacy Policy]({config.BOT_PRIVACY}).
 
-If you have any questions or concerns, feel free to reach out to our [Support Team](https://t.me/X_NETWORK_BOTS_I).
+If you have any questions or concerns, feel free to reach out to our [Support Team](https://t.me/ARISHFA_UPDATE).
     """
 
     await message.reply_text(
